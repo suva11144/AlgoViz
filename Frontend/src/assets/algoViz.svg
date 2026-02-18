@@ -1,0 +1,42 @@
+<svg
+  width="120"
+  height="120"
+  viewBox="0 0 120 120"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Background -->
+  <rect width="120" height="120" rx="20" fill="#0F172A"/>
+
+  <!-- Bars (Algorithm steps) -->
+  <rect x="22" y="55" width="10" height="30" rx="2" fill="#38BDF8"/>
+  <rect x="38" y="45" width="10" height="40" rx="2" fill="#38BDF8"/>
+  <rect x="54" y="35" width="10" height="50" rx="2" fill="#38BDF8"/>
+  <rect x="70" y="45" width="10" height="40" rx="2" fill="#38BDF8"/>
+  <rect x="86" y="55" width="10" height="30" rx="2" fill="#38BDF8"/>
+
+  <!-- Flow nodes -->
+  <circle cx="27" cy="40" r="4" fill="#22C55E"/>
+  <circle cx="60" cy="25" r="4" fill="#22C55E"/>
+  <circle cx="93" cy="40" r="4" fill="#22C55E"/>
+
+  <!-- Flow lines -->
+  <path
+    d="M27 40 C45 15, 75 15, 93 40"
+    stroke="#22C55E"
+    stroke-width="2"
+    fill="none"
+  />
+
+  <!-- Text -->
+  <text
+    x="60"
+    y="108"
+    text-anchor="middle"
+    font-size="12"
+    fill="#E5E7EB"
+    font-family="monospace"
+  >
+    AlgoViz
+  </text>
+</svg>

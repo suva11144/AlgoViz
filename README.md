@@ -110,10 +110,5 @@ cd Frontend
 npm run build
 ```
 
-Deploy the generated `Frontend/dist/` to any static host (Netlify, Vercel, GitHub Pages, etc.).
 
-- **Important security note**: `VITE_*` variables are bundled into the client. **Do not ship real private API keys to production in the browser**. For a production setup, move OpenAI calls to a backend (or serverless function) and keep the API key server-side.
-
-### License
-No repository-wide license file is included yet. If you intend this to be open source, add a `LICENSE` file (for example, MIT or ISC) and update this section accordingly.
 
